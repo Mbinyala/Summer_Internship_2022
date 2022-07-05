@@ -1,0 +1,51 @@
+
+
+
+.techno{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.techno h2{
+    
+    width: 80px;
+    transform: translate(0,60px);
+
+}
+.nav-links a{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    line-height: 1.6;
+   
+    padding: 5px;
+    margin: 10px, 10px;
+    transform: translate(0px,50px);
+    width: 150px;
+    
+    text-decoration: none;
+
+    color:black
+   
+    
+}
+
+.main-body{
+
+    transform: translate(0px,-300px);
+    margin-left: 230px;
+    padding-top: 5px;
+    align-items: center;
+    
+}
+
+.main-body h1{
+    color:lightcoral;
+    background-color:beige;
+    padding-top: 15px;
+}
+
+.main-body p{
+    margin-top: -8px;
+}
