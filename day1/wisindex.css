@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*body{
+    background-color: #F9F9F9;
+    background-image:url("basics-01-starting-project/backimg1.jpg"); 
+}*/
+
+
+
+.header{
+    background-image: url("flux-images/wis-background4.avif");
+   background-position: center; 
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.nav img{
+    width: 130px;
+    padding-left: 700px;
+    padding-top: 80px;
+    align-items: center;
+}    
+
+
+
+
+.nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 2px;
+    margin: 4px;
+    right: 35px;
+    top: -100px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: #2C3639;
+    text-decoration: none;
+}
+
+
+
+
+.text-box{
+    width: 90%;
+    color: #2C3639;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.text-box h1{
+    font-size: 60px;
+    color:#2C3639;
+
+}
+.text-box p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2C3639;
+}
+
+
+.techstack h2{
+    text-align: center;
+    margin-top: 120px;
+    
+}
+
+
+    
+
+img{
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 700px;
+    
+    width: 140px;
+}
+.tc{
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.hero-button{
+    color:#1B2430;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 34px;
+    margin: 15px;
+    margin-top: 40px;
+    margin-left: 700px;
+    border: 1px solid #1B2430;
+    position: relative;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+
+.footer{
+    width:100%;
+    text-align: center;
+    padding: 30px;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+.footer h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.icons .fa {
+    color:#f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+
+}
+.fa .fa-heart-o{
+    color:#f44336
+
+}
+
+
+
+
+
