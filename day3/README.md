@@ -1,4 +1,6 @@
-Git and basics of VCS
+# Git and basics of VCS
+
+
 A VCS or Version Control System is a way of managing, keeping track of a large codebase or a collection of files allowing multiple developers, managers and other people to work on the same project.
 
 Centralized Version Control System
@@ -24,13 +26,20 @@ Distributed version control systems contain multiple repositories. Each user has
 Some common examples are:
 
 Git
+
 Mercurial
-Getting Started with Git:
+
+
+
+# Getting Started with Git:
+
+
 To get started with git, firstly install git from: git-scm
 
 After installing git, let us start by cross-checking if git is installed.
 
 To check if git is installed run the following command in your terminal:
+
 
 git --version
 Now if you have git installed, let's go over some basic git commands:
@@ -43,6 +52,8 @@ This will create a git repository in your current directory.
 add: The add command is used to add the changes made in the code and move it to the staging/tracking area of git. If you do not use add command, the changes you have made will be untracked.
 
  git add -A
+ 
+ 
  # or specify file name
  git add <filename>
 The add command has multiple ways of adding a file. You can use the "-A" to add all the files that have changes or you can specify a single file you wish to.
