@@ -1,0 +1,155 @@
+
+
+.techno{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.techno h2{
+    
+    width: 80px;
+    transform: translate(0,60px);
+    margin-bottom: 25px;
+
+}
+.nav-links a{
+    
+    display: flex;
+    flex-direction: column;
+    display: block;
+    line-height: 1.6;
+    font-size: 1 rem;
+    border: 1px solid black;
+    
+   
+    padding: 5px;
+    margin: 10px, 10px;
+    transform: translate(0px,50px);
+    width: 150px;
+    
+    text-decoration: none;
+
+    color:black
+   
+    
+}
+
+.main-body{
+
+    transform: translate(0px,-300px);
+    margin-left: 230px;
+    padding-top: 5px;
+    align-items: center;
+    
+}
+
+.main-body h1{
+    color:#F999B7;
+    background-color:#864879;
+    padding-top: 15px;
+    margin-top: 0px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.main-body p{
+    margin-top: -8px;
+    font-size: 1.5rem
+}
+.oops{
+    font-size: 1.5em;
+}
+
+.row{
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    margin: auto;
+    font-size: 1rem;
+}
+
+
+
+.box1{
+    border: 1px solid #864879;
+    padding-top: 15px;
+    
+    margin-bottom: 5px;
+    display: inline-block;
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    height: 10%;
+}
+.nb p{
+    font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+    .side {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #techno {
+        margin-top: 20px;
+        width: 90vw;
+        height: 30vh;
+        overflow: auto;
+        border-style: double;
+        border-color: white;
+        border-bottom-color: black;
+        border-width: 8px;
+        padding: 20px;
+    }
+
+    #content {
+        width: 95vw;
+        height: 60vh;
+    }
+
+    .nsv-links {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+
+    }
+
+}
+
+@media (max-width: 700px) {
+    body {
+        background-color: #121212;
+        color: white;
+    }
+    #techno {
+        width: 90vw;
+        border-color: #121212;
+        border-bottom-color: white;
+    }
+
+    #content {
+        width: 95vh;
+    }
+
+    .main-body h1 {
+        font-size: 2rem;
+        background-color: white;
+        color: #121212;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .link {
+        color: white;
+    }
+}
+
+
