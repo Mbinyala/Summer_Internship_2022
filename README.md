@@ -1,2 +1,2 @@
-# Wisflux_Academy_Internship_2022
+# Summer Internship 2022
 Daily Track of Assignments 
