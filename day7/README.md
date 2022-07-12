@@ -147,6 +147,25 @@ console.log(1 === "1")
 ```
 
 
+# Program :
+```javascript
+const array = [];
+
+function random(a,b){
+    
+    return  Math.random(a,b);
+
+}
+
+const number1 = random(-100,0);
+const number2 = random(-900,800);
+
+array.push(number1);
+array.push(number2);
+
+console.log(array.sort());
+
+```
 
 
 
