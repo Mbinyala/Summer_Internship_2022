@@ -1,6 +1,5 @@
 
-
-
+# <p align=center> TypeScript Basic level 1 </P>
 # What are the basic data types in TypeScript?
 The basic data types in typescript are : 1.Number 2.string 3.Boolean 4.Any 5.Array 6.tuple 7.unknown
 
@@ -114,6 +113,48 @@ myGenericNumber.zeroValue = 0;
 myGenericNumber.add = function (x, y) {
   return x + y;
 };
+```
+
+
+# programs:
+
+```typescript
+
+class Account {
+    eName: string;
+    eId: number;
+    done: boolean;
+  }
+  
+  var todos: Account[] = [];
+  
+  function add(eName: string, eId: number): number {
+    return todos.push({
+      eName: eName,
+      eId: eId,
+      done: false,
+    });
+  }
+  
+  function remove(index: number): Account[] {
+    return todos.splice(index, 1);
+  }
+  
+  function list(): void {
+    todos.forEach(function (todo: Account, index: number) {
+      console.log(index + " - " + todo.eName);
+    });
+  }
+  
+  function update(index: number, eName: string, eId: number): Account {
+    todos[index].eName = eName;
+    todos[index].eId = eId;
+    return todos[index];
+  }
+  
+  console.log(add("Update your profile by", 25)); //1
+  list(); 
+  
 ```
 
 
