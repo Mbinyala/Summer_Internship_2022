@@ -89,7 +89,7 @@ HTTP gives users a way to interact with web resources such as HTML files by tran
 - CONNECT converts the request connection to a transparent TCP/IP tunnel
 - PATCH partially modifies a web resource
  
- ![](httpcommu.png)
+
 
 # What is Middleware in ExpressJS.
 Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle. These functions are used to modify req and res objects for tasks like parsing request bodies, adding response headers, etc.
