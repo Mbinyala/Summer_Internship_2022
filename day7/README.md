@@ -153,7 +153,7 @@ const array = [];
 
 function random(a,b){
     
-    return  Math.random(a,b);
+    return  Math.floor(Math.random()*(max - min + 1) + min))
 
 }
 
